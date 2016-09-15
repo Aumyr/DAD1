@@ -15,17 +15,21 @@ public class EJ1_DAD
 {
     public static void main(String[] args) 
     {
-        //-----------------
+        //Marco
         JFrame marco = new JFrame ("Ejercicio 1 - DAD");
-        
+         
+        //Etiquetas
         JLabel etiqueta_a = new JLabel ("Primera etiqueta");
         JLabel etiqueta_b = new JLabel ("Segunda etiqueta");
         
+        //Campos de texto
         JTextField campo_a = new JTextField ("Primer campo de texto");
         JTextField campo_b = new JTextField ("Segundo campo de texto");
         
+        //Botón
         JButton boton = new JButton ("Botón");
         
+        //Layout
         FlowLayout layout = new FlowLayout();
         
         marco.setVisible(true);
