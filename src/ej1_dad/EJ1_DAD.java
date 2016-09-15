@@ -34,6 +34,9 @@ public class EJ1_DAD
         
         marco.setVisible(true);
         marco.setSize(600,500);
+        
+        marco.setResizable(false); //Evita que el usuario redimensione la ventana
+        
         marco.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         marco.setLayout(layout);
         
